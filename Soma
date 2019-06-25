@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float soma(float num1, float num2);
+
+float main()
+{
+    float v1, v2, resultado;
+
+    printf("Digite o primeiro valor: \n");
+    scanf("%f", &v1);
+
+    printf("Digite o segundo valor: \n");
+    scanf("%f", &v2);
+
+    resultado = soma(v1, v2);
+
+    printf("Este eh o reultado da soma: %.2f \n", resultado);
+
+}
+
+float soma(float num1, float num2)
+{
+    float resultado;
+    resultado = num1 + num2;
+
+    return(resultado);
+}
+
+
